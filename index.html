@@ -1,141 +1,233 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJP6WJ6S08"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-WJP6WJ6S08');
-    </script>
-    
-    <title>Yicheng Lin | Portfolio</title>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJP6WJ6S08"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WJP6WJ6S08');
+</script>
 
-    <style>
-        body {
-            font-family: "Inter", sans-serif;
-            background-color: #0f172a;
-            color: #e2e8f0;
-            margin: 0;
-            padding: 0;
-        }
+<title>Yicheng Lin | AI & Cloud Engineer</title>
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 60px 20px;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-        h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
+<style>
 
-        h2 {
-            margin-top: 40px;
-            border-bottom: 1px solid #334155;
-            padding-bottom: 5px;
-        }
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+}
 
-        p {
-            color: #94a3b8;
-            line-height: 1.6;
-        }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
 
-        .project {
-            background-color: #1e293b;
-            padding: 15px;
-            margin-top: 15px;
-            border-radius: 8px;
-            transition: 0.2s;
-        }
+h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
 
-        .project:hover {
-            background-color: #334155;
-            transform: translateY(-2px);
-        }
+h2 {
+    margin-top: 50px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 5px;
+}
 
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-            font-weight: 500;
-        }
+.subtitle {
+    color: #38bdf8;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
-        a:hover {
-            color: #7dd3fc;
-        }
+.description {
+    color: #94a3b8;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
 
-        .footer {
-            margin-top: 60px;
-            color: #64748b;
-            font-size: 14px;
-        }
-    </style>
+.highlight {
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+.skills {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project {
+    background-color: #1e293b;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.project:hover {
+    background-color: #334155;
+    transform: translateY(-2px);
+}
+
+.project-title {
+    color: #38bdf8;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project-desc {
+    color: #94a3b8;
+    margin-top: 8px;
+}
+
+.tech {
+    color: #64748b;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 16px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: #7dd3fc;
+}
+
+.footer {
+    margin-top: 60px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-    <h1>Hi, I'm Yicheng Lin 👋</h1>
+<h1>Hi, I'm Yicheng Lin 👋</h1>
 
-    <p>
-        Master's student at Simon Fraser University specializing in Machine Learning,
-        Computer Vision, and Cloud Systems.
-    </p>
+<div class="subtitle">
+AI / Machine Learning / Cloud Engineer
+</div>
 
-    <p>
-        I build AI systems, cloud platforms, and full-stack applications.
-    </p>
+<div class="description">
+Master's student in Computer Science at Simon Fraser University focused on
+<span class="highlight">Machine Learning, Computer Vision, and Cloud Infrastructure</span>.
 
-    <h2>Projects</h2>
+I design and build intelligent systems including <span class="highlight">LLM-powered applications, reinforcement learning simulations, and scalable cloud deployment platforms</span>.
 
-    <div class="project">
-        <a href="https://github.com/lyyyzi/RAG-Assistant" target="_blank">
-            LLM-Powered Knowledge Assistant (RAG)
-        </a>
-        <p>Built retrieval-augmented generation system using LangChain, FAISS, and FastAPI.</p>
-    </div>
+Currently seeking <span class="highlight">Software Engineering, AI, and Cloud internships (2026)</span>.
+</div>
 
-    <div class="project">
-        <a href="https://github.com/lyyyzi/AI-Driven-Rock-Climbing-Simulation" target="_blank">
-            AI-Driven Rock Climbing Simulation
-        </a>
-        <p>Developed reinforcement learning simulation using Isaac Sim and PyTorch.</p>
-    </div>
+<a class="button" href="https://github.com/lyyyzi" target="_blank">GitHub</a>
+<a class="button" href="https://www.linkedin.com/in/yichenglin116/" target="_blank">LinkedIn</a>
 
-    <div class="project">
-        <a href="https://github.com/lyyyzi/Object-Detection-with-SSD" target="_blank">
-            Real-Time Object Detection System
-        </a>
-        <p>Trained SSD object detection model using PyTorch and OpenCV.</p>
-    </div>
+<h2>Technical Skills</h2>
 
-    <div class="project">
-        <a href="https://github.com/lyyyzi/Javenture-Inventory-App" target="_blank">
-            Javenture Inventory Management App
-        </a>
-        <p>Built full-stack inventory management system with backend APIs and frontend UI.</p>
-    </div>
+<div class="skills">
+Machine Learning: PyTorch, Diffusion Models, Reinforcement Learning, Computer Vision<br><br>
 
-    <h2>Links</h2>
+Cloud & DevOps: Azure, Terraform, Docker, CI/CD, GitHub Actions<br><br>
 
-    <div class="project">
-        <a href="https://github.com/lyyyzi" target="_blank">GitHub Profile</a>
-    </div>
+Backend: Python, FastAPI, Django, REST APIs, PostgreSQL<br><br>
 
-    <div class="project">
-        <a href="https://www.linkedin.com/in/yichenglin116/" target="_blank">LinkedIn</a>
-    </div>
+Tools: Linux, Git, OpenCV, LangChain, FAISS
+</div>
 
-    <div class="footer">
-        © 2026 Yicheng Lin
-    </div>
+<h2>Featured Projects</h2>
+
+<div class="project">
+<div class="project-title">
+<a href="https://github.com/lyyyzi/RAG-Assistant" target="_blank">
+LLM Knowledge Assistant (RAG System)
+</a>
+</div>
+
+<div class="project-desc">
+Built full-stack retrieval-augmented generation system with vector search and API backend.
+</div>
+
+<div class="tech">
+LangChain • FAISS • FastAPI • Python
+</div>
+</div>
+
+
+<div class="project">
+<div class="project-title">
+<a href="https://github.com/lyyyzi/AI-Driven-Rock-Climbing-Simulation" target="_blank">
+AI-Driven Rock Climbing Simulation
+</a>
+</div>
+
+<div class="project-desc">
+Developed reinforcement learning simulation environment for physics-based agent training.
+</div>
+
+<div class="tech">
+PyTorch • Isaac Sim • Reinforcement Learning
+</div>
+</div>
+
+
+<div class="project">
+<div class="project-title">
+<a href="https://github.com/lyyyzi/Object-Detection-with-SSD" target="_blank">
+Object Detection System
+</a>
+</div>
+
+<div class="project-desc">
+Trained and evaluated deep learning model for visual object recognition tasks.
+</div>
+
+<div class="tech">
+PyTorch • OpenCV • Computer Vision
+</div>
+</div>
+
+
+<div class="project">
+<div class="project-title">
+<a href="https://github.com/lyyyzi/Javenture-Inventory-App" target="_blank">
+Inventory Management Platform
+</a>
+</div>
+
+<div class="project-desc">
+Built full-stack system with backend APIs and frontend interface for inventory tracking.
+</div>
+
+<div class="tech">
+Java • Backend APIs • Full Stack
+</div>
+</div>
+
+
+<div class="footer">
+© 2026 Yicheng Lin
+</div>
 
 </div>
 
